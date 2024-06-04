@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(18, 179, 253);
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 50vh;
+    margin-left: 35pc;
+    margin-top: 10%;
+    border-top-left-radius: 20px ;
+border-top-right-radius: 20px ; 
+border-bottom-left-radius: 20px ; 
+border-bottom-right-radius: 20px ; 
+}
+.cardtop{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(124, 213, 255);
+    border-top-left-radius: 20px ;
+border-top-right-radius: 20px ; 
+
+}
+.card img {
+    clip-path: circle();
+    position: relative;
+    bottom: 50px;
+    left: 30%;
+}
+.card .tt{
+    text-align: center;
+    bottom: 50px;
+    position: relative;
+
+}
+.cardfoot ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 8px;
+    position: relative;
+    bottom: 30px;
+}
+.cardfoot ul p{
+    font-size: 13px;
+    color: grey;
+}
+hr{
+    position: relative;
+    bottom: 10%;
+    border: px solid grey;
+    opacity: 0.4;
+}
